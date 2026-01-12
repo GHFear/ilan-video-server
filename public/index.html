@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>IllusorySoftware - LAN Video Player</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>iLAN Video Player</h1>
+
+  <div id="container">
+    <div id="video-wrapper">
+      <video id="player" controls></video>
+    </div>
+
+    <div id="video-title"></div>
+
+    <div id="audioSelect-wrapper">
+      <select id="audioSelect">
+        <option value="" disabled selected hidden>
+          Select audio track
+        </option>
+      </select>
+    </div>
+    
+    <div id="list" class="grid"></div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
